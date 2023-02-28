@@ -1,3 +1,18 @@
-img {
-    width: 100%;
+.asiento {
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: gray;
+}
+.asiento--libre {
+    background-color: greenyellow;
+}
+.asiento--ocupado {
+    background-color: red;
+}
+.asiento__numero {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    user-select: none;
 }
